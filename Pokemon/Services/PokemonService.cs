@@ -98,7 +98,7 @@ namespace PokemonConsole.Services
                 }
                 catch (Exception ex)
                 {
-                    //todo log the exception using log handler in future;
+                    //TODO log the exception using log handler in future;
                     Debug.WriteLine("EXCEPTION : " + ex.Message);
                     pokemonResult.Error = ex;
                     pokemonResult.IsSuccessStatusCode = false;

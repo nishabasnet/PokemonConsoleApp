@@ -28,6 +28,8 @@ namespace PokemonConsole.Services
                 var fakePoke = new PokemonResult()
                 {
                     Error = null,
+                    PokemonName = name,
+                    IsSuccessStatusCode = true,                    
                     Types = new List<Models.Type>()
                     {
                         new Models.Type(){ type= new Type2(){

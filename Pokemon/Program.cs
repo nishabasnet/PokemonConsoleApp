@@ -45,12 +45,13 @@ namespace PokemonConsole
             QueryResults();
 
         }
+
         #region DevelopmentMachine
         private static void SetDevelopmentMachine()
         {
 
 #if DEBUG
-            Environment = Environment.QA; // for testing purpose 
+            Environment = Environment.PROD; // for testing purpose added env as PROD good to have QA on debug
 #else
             Environment = Environment.PROD;
 #endif
