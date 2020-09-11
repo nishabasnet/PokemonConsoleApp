@@ -1,29 +1,17 @@
 # README #
+PokemonConsoleApplication
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Overview: 
+Pokemon Console is a sample C# console application that shows how to call the API and convert the JSON response to C# object.This application accept pokeman names as user input and output effectiveness v sother types.
 
-### What is this repository for? ###
+Requirements to run the Application
+-Visual Studio 2017/19
+-GitBash/Terminal or GitBhub Extension for Visual Studio
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Getting Started
+1) Clone the repository to your local machine
+2) cd into application directory where the Pokemon.sln exist
+3) Open the application using Open/Start Pokemon.sln.
+4)Once Visual studio is opened, you can run the application by clicking start button.
 
-### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
